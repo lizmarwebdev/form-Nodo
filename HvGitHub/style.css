@@ -1,0 +1,89 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Estilo del título principal */
+header h1 {
+    margin: 0;
+}
+
+/* Estilo de la navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo de la sección principal */
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+section p, 
+section ul {
+    margin: 0.5rem 0;
+}
+
+section h2 {
+    color: #007bff;
+    margin-bottom: 1rem;
+}
+
+/* Estilo de las listas en la sección de experiencia laboral */
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    text-align: left;
+}
+
+/* Estilo de los enlaces */
+section a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo de la imagen */
+section img {
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+}
